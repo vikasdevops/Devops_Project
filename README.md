@@ -26,3 +26,31 @@ Choose an instance type:
 
 
 <img src="images/aws.PNG" width=600 height=200>
+
+
+- Install Jenkins in Ec2 Jenkin server:
+
+Steps to install Jenkins:
+> First, we’ll add the repository key to the system.
+- $ wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+-When the key is added, the system will return OK. Next, we’ll append the Debian package repository address to the server’s sources.list:
+- $ echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+- $ sudo apt-get update
+- $ sudo apt-get install jenkins
+- Using systemctl we’ll start Jenkins:
+- $ sudo systemctl start jenkins
+- $  sudo systemctl status jenkins
+- If everything went well, the beginning of the output should show that the service is active and configured to start at boot:
+-  jenkins.service - LSB: Start Jenkins at boot time
+  Loaded: loaded (/etc/init.d/jenkins; bad; vendor preset: enabled)
+  Active:active (exited) since Thu 2017-04-20 16:51:13 UTC; 2min 7s ago
+    Docs: man:systemd-sysv-generator(8)
+
+Opening the Firewall
+
+- $ sudo ufw allow 8080
+- $ sudo ufw status
+- $ sudo ufw allow OpenSSH
+- $ sudo ufw enable
+
+To set up our installation, we’ll visit Jenkins on its default port, 8080, using the server domain name or IP address: http://ip_address_or_domain_name:8080
