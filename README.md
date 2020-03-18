@@ -13,7 +13,7 @@ Requiremnt:
 
 <img src="images/devopss.PNG" width=800 height=300>
 
-# Launch the Ec2 instances
+# Launch the EC2 instances
 
 > Steps to create EC2 instances:
 - Choose an Amazon Machine Image (AMI):
@@ -28,7 +28,7 @@ Choose an instance type:
 <img src="images/aws.PNG" width=600 height=200>
 
 
-- Install Jenkins in Ec2 Jenkin server:
+- Install Jenkins in EC2 Jenkin server:
 
 Steps to install Jenkins:
 > First, we’ll add the repository key to the system.
@@ -54,3 +54,34 @@ Opening the Firewall
 - $ sudo ufw enable
 
 To set up our installation, we’ll visit Jenkins on its default port, 8080, using the server domain name or IP address: http://ip_address_or_domain_name:8080
+
+<img src="images/jenkins.PNG" width=700 height=300>
+
+***
+
+<img src="images/start.PNG" width=700 height=300>
+
+***
+
+<img src="images/gitadd.PNG" width=700 height=300>
+
+***
+
+
+<img src="images/buildje.PNG" width=700 height=300>
+
+***
+
+
+
+<img src="images/bulidjenk.PNG" width=700 height=300>
+
+***
+
+<img src="images/tomcat.PNG" width=700 height=300>
+
+***
+
+```
+$ cat server.xml
+```
