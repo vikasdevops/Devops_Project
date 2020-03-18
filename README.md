@@ -76,13 +76,13 @@ To set up our installation, we’ll visit Jenkins on its default port, 8080, usi
 
 > Build the Project
 
-<img src="images/bulidjenk.PNG" width=700 height=300>
+<img src="images/bulidjenk.PNG" width=700 height=200>
 
 ***
 
 > Install Apache Tomcat in EC2 webserver
 
-<img src="images/tomcat.PNG" width=700 height=300>
+<img src="images/tomcat.PNG" width=700 height=200>
 
 ***
 
@@ -162,13 +162,13 @@ Add credential of jenkins
 - Copy the ip_address_or_domain_name browsable.
 
 
-<img src="images/t.PNG" width=700 height=300>
+<img src="images/t.PNG" width=400 height=200>
 
 ***
 
 - Buld the project
 
-<img src="images/auto2.PNG" width=700 height=300>
+<img src="images/auto2.PNG" width=400 height=300>
 
 ***
 
@@ -176,4 +176,7 @@ Add credential of jenkins
   - Job automatically trigger.
   - Deployment of Webpage
 
-<img src="images/code.PNG" width=700 height=300>
+
+<img src="images/code.PNG" width=400 height=200>
+
+***
