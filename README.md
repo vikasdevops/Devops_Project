@@ -29,10 +29,10 @@ Choose an instance type:
 
 - Install Jenkins in EC2 Jenkin server:
 
-Steps to install Jenkins:
-> First, we’ll add the repository key to the system.
+## Steps to install Jenkins:
+ First, we’ll add the repository key to the system.
 - $ wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
--When the key is added, the system will return OK. Next, we’ll append the Debian package repository address to the server’s sources.list:
+- When the key is added, the system will return OK. Next, we’ll append the Debian package repository address to the server’s sources.list:
 - $ echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
 - $ sudo apt-get update
 - $ sudo apt-get install jenkins
@@ -40,7 +40,8 @@ Steps to install Jenkins:
 - $ sudo systemctl start jenkins
 - $  sudo systemctl status jenkins
 - If everything went well, the beginning of the output should show that the service is active and configured to start at boot:
--  jenkins.service - LSB: Start Jenkins at boot time
+- Output
+ >  jenkins.service - LSB: Start Jenkins at boot time  
   Loaded: loaded (/etc/init.d/jenkins; bad; vendor preset: enabled)
   Active:active (exited) since Thu 2017-04-20 16:51:13 UTC; 2min 7s ago
     Docs: man:systemd-sysv-generator(8)
@@ -58,29 +59,32 @@ To set up our installation, we’ll visit Jenkins on its default port, 8080, usi
 
 ***
 
+- Make new jobs
+
+
 <img src="images/start.PNG" width=700 height=300>
 
 ***
 
-> Add the repository
+-  Add the repository git
 
 <img src="images/gitadd.PNG" width=700 height=300>
 
 ***
 
->  Now Build the project,search the File pom.xml
+-  Now Build the project,search the File pom.xml
 
 <img src="images/buildje.PNG" width=700 height=300>
 
 ***
 
-> Build the Project
+- Build the Project
 
 <img src="images/bulidjenk.PNG" width=700 height=200>
 
 ***
 
-> Install Apache Tomcat in EC2 webserver
+- Install Apache Tomcat in EC2 webserver
 
 <img src="images/tomcat.PNG" width=700 height=200>
 
