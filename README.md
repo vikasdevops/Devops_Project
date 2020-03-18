@@ -1,7 +1,7 @@
 # Project Devops CI/CD through Jenkins
 
 ```
-Requiremnt:
+Requirement:
 > Git install
 > Jenkins
 > AWS console
@@ -14,7 +14,7 @@ Requiremnt:
 
 # Launch the EC2 instances
 
-> Steps to create EC2 instances:
+- Steps to create EC2 instances:
 - Choose an Amazon Machine Image (AMI):
 - we recommend the Amazon Linux 2 AMI (free-tier eligible).     
 Choose an instance type:
