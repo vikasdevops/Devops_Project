@@ -163,16 +163,17 @@ Add credential of jenkins
 <img src="images/cron.PNG" width=700 height=300>
 
 ***
-- Copy the ip_address_or_domain_name browsable.
-
-
-<img src="images/t.PNG" width=400 height=200>
-
-***
 
 - Buld the project
 
 <img src="images/auto2.PNG" width=400 height=300>
+
+***
+
+- Copy the ip_address_or_domain_name browsable.
+
+
+<img src="images/t.PNG" width=400 height=200>
 
 ***
 
