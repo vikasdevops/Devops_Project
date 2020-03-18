@@ -1,5 +1,4 @@
-# Devops_Project
-## company project
+# Project Devops CI/CD through Jenkins
 
 ```
 Requiremnt:
@@ -63,20 +62,25 @@ To set up our installation, we’ll visit Jenkins on its default port, 8080, usi
 
 ***
 
+> Add the repository
+
 <img src="images/gitadd.PNG" width=700 height=300>
 
 ***
 
+>  Now Build the project,search the File pom.xml
 
 <img src="images/buildje.PNG" width=700 height=300>
 
 ***
 
-
+> Build the Project
 
 <img src="images/bulidjenk.PNG" width=700 height=300>
 
 ***
+
+> Install Apache Tomcat in EC2 webserver
 
 <img src="images/tomcat.PNG" width=700 height=300>
 
@@ -85,3 +89,91 @@ To set up our installation, we’ll visit Jenkins on its default port, 8080, usi
 ```
 $ cat server.xml
 ```
+
+Login webserver EC2 by SSH:
+
+- check the port number of Tomcat webserver
+
+<img src="images/port.PNG" width=700 height=300>
+
+***
+- Copy IP ip_address_or_domain_name port 8090 check Tomcat server working fine.
+
+
+<img src="images/tomcat1.PNG" width=700 height=300>
+
+***
+
+- Add Deploy to container Plugins in Jenkins
+
+
+
+<img src="images/addjenkins.PNG" width=700 height=300>
+
+
+***
+
+open file
+
+```
+$ cat tomcat-user.xml
+
+```
+
+- check the credential of webserver passwd
+
+
+
+<img src="images/cri.PNG" width=700 height=300>
+
+***
+
+Add credential of jenkins
+
+<img src="images/cridenti.PNG" width=700 height=300>
+
+***
+
+<img src="images/credentials.PNG" width=700 height=300>
+
+***
+
+<img src="images/Cr.PNG" width=700 height=300>
+
+***
+
+-  ADD the credential and tomcat URL:
+
+
+<img src="images/addj.PNG" width=700 height=300>
+
+***
+- Build the Project, login webserver check the webapp/ dir
+
+
+<img src="images/ne.PNG" width=700 height=300>
+
+***
+- ADD the cron job click in Build Triggers
+
+<img src="images/cron.PNG" width=700 height=300>
+
+***
+- Copy the ip_address_or_domain_name browsable.
+
+
+<img src="images/t.PNG" width=700 height=300>
+
+***
+
+- Buld the project
+
+<img src="images/auto2.PNG" width=700 height=300>
+
+***
+
+- Change the code in github than again refresh the window.
+  - Job automatically trigger.
+  - Deployment of Webpage
+
+<img src="images/code.PNG" width=700 height=300>
