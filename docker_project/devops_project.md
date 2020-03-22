@@ -25,8 +25,14 @@
 ***
 
 - create the dir.
+ - Assign permission
 
-<img src="imagesdocker/Selection_020.png" width ="400" height="20">
+ ```
+ $ chown -R dockeradimin:dockeradimin /opt/docker
+```
+
+
+  <img src="imagesdocker/Selection_020.png" width ="400" height="20">
 
 ***
 
