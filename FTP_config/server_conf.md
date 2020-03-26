@@ -46,6 +46,10 @@ $ restorecon --vvRF /ftp-data/
 ```
 
 
+***
+
+
+
 <img src=ftpphoto/ftp.PNG >
 
  - open browser    
