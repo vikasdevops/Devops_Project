@@ -54,4 +54,9 @@ ftp://<ip address>
 ```
 
 
+
+<img src="ftpphoto/ftp.PNG" width="200" height="250">    
+
+
+
 <img src="ftpphoto/ftp.PNG" width="740" height="250">    
