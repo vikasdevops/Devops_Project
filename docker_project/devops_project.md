@@ -59,7 +59,7 @@
 
 ***
 
-- Add the creditions ssh
+- Add the credentials SSH
 
 <img src="imagesdocker/Selection_007.png" width ="700" height="400">
 
@@ -89,6 +89,6 @@
 ***
 
 
-<img src="imagesdocker/webnew.png" width ="400" height="200">
+<img src="imagesdocker/webnew.png" width ="400" height="210">
 
 ***
