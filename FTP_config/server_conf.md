@@ -46,7 +46,8 @@ $ restorecon --vvRF /ftp-data/
 
 ```
 
--
+>
+
  - open browser    
    or
   -  ftp://(ip address)
