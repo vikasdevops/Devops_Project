@@ -53,7 +53,5 @@ $ restorecon --vvRF /ftp-data/
 
 
 
+
 ***
-
-
-<img src="ftpphoto/ftp.PNG" width="740" height="250">    
