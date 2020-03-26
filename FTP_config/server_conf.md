@@ -41,7 +41,7 @@ $ passwd ftpuser
 -
 
 ```
-$ semange fcontext -a -t public_content_t `/ftp-data(/.* )?`
+$ semange fcontext -a -t public_content_t `/ftp-data(/.* )?`          
 $ restorecon --vvRF /ftp-data/
 
 ```
@@ -54,8 +54,6 @@ ftp://<ip address>
 ```
 
 
-
-<img src="ftpphoto/ftp.PNG" width="200" height="250">    
 
 
 
