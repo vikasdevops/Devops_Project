@@ -38,7 +38,6 @@ $ mkdir ftp-data
 $ useradd ftpuser -d /ftp-data
 $ passwd ftpuser
 
--
 
 ```
 $ semange fcontext -a -t public_content_t `/ftp-data(/.* )?`          
