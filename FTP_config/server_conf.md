@@ -38,13 +38,15 @@ $ mkdir ftp-data
 $ useradd ftpuser -d /ftp-data
 $ passwd ftpuser
 
-<img src=ftpphoto/ftp.PNG > 
+
 ```
 $ semange fcontext -a -t public_content_t `/ftp-data(/.* )?`          
 $ restorecon --vvRF /ftp-data/
 
 ```
 
+
+<img src=ftpphoto/ftp.PNG >
 
  - open browser    
    or
