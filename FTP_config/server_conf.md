@@ -50,11 +50,10 @@ $ restorecon --vvRF /ftp-data/
 open browser
 or
 ftp://<ip address>
-
 ```
 
 
-
+***
 
 
 <img src="ftpphoto/ftp.PNG" width="740" height="250">    
